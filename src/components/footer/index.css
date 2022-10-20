@@ -1,0 +1,27 @@
+.footer_container {
+    padding: 28px 0;
+    padding-bottom: 10px;
+    margin-top: 130px;
+}
+
+.footer_container p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+    margin: 0;
+    color: #D1D2F3;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer_container {
+        padding: 22px 0;
+        margin-top: 60px;
+        margin-top: 78px;
+    }
+
+    .footer_container p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

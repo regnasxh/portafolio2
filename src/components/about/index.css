@@ -1,0 +1,92 @@
+.about_container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 73px 55px;
+    background-image: url("../../assets/images/about_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    max-width: 751px;
+    margin-bottom: 116px;
+}
+
+.about_content {}
+
+.about_content h1 {
+    font-family: 'Roboto Mono Lg', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #D1D2F3;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.about_content p {
+    width: 100%;
+    padding-left: 81px;
+    padding-right: 56px;
+    padding-bottom: 23px;
+    padding-top: 39px;
+    background: linear-gradient(180deg, rgba(6, 12, 65, 0.75) 0%, rgba(7, 44, 99, 0.75) 100%);
+    border: 0.738446px solid rgba(17, 209, 251, 0.5);
+    border-radius: 25.1072px;
+    /* max-width: 581px; */
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 17.7227px;
+    line-height: 27px;
+    color: #D1D2F3;
+    text-align: justify;
+
+}
+
+.about_content p span {
+    color: rgba(17, 209, 251, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .about_container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 73px 0px;
+        background-image: none;
+        max-width: 751px;
+        padding-bottom: 23px;
+        margin-bottom: 116px;
+    }
+
+
+    /* .about_content {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 46px;
+        padding-top: 6px;
+        background: linear-gradient(180deg, rgba(23, 44, 237, 0.115) 15.62%, rgba(6, 38, 74, 0.115) 100%);
+        border: 0.297985px solid rgba(17, 209, 251, 0.5);
+        border-radius: 2.97985px;
+    } */
+
+    .about_content h1 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 29px;
+
+    }
+
+    .about_content p {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        max-width: none;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+    }
+
+    .about_content p span {
+        color: rgba(17, 209, 251, 1);
+    }
+
+}

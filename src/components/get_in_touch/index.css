@@ -1,0 +1,104 @@
+.touch_container {
+    width: 100%;
+    max-width: 1012px;
+    margin: 0 auto;
+    margin-top: 39px;
+    padding-top: 50px;
+}
+
+.touch_content {
+    max-width: 547px;
+    margin: 0 auto;
+}
+
+.touch_content h1 {
+    font-family: 'Roboto Mono Lg', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #D1D2F3;
+    text-align: center;
+}
+
+.touch_content p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #D1D2F3;
+    margin-top: 30px;
+}
+
+.icons_container {
+    margin-top: 30px;
+    text-align: center;
+    transform: translateX(-21.5px);
+}
+
+.icons_container button {
+    width: 165px ;
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: inherit;
+    border: 1px solid #11D1FB;
+    border-radius: 5.12866px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #11D1FB;
+    padding: 8px 20px;
+    margin-left: 43px;
+    cursor: pointer;
+}
+
+.icons_container button:hover {
+    transition: all 0.1.5s ease-in-out;
+    background: rgba(17, 209, 251, 0.07);
+    border: 1px solid rgba(19, 201, 249, 0.46);
+    box-shadow: 0px 4px 30px rgba(61, 67, 67, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+    .touch_container {
+        margin-top: 42px;
+        padding-top: 40px;
+        margin-top: 22px;
+        padding-top: 50px;
+    }
+
+    .touch_content h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .touch_content p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 19px;
+
+    }
+    .icons_container button {
+        max-width: 165px;
+        width: 40% ;
+        font-family: 'Roboto Mono', sans-serif;
+        background-color: inherit;
+        border: 1px solid #11D1FB;
+        border-radius: 5.12866px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #11D1FB;
+        padding: 8px 20px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+    .icons_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+        transform: translateX(0);
+    }
+
+
+}
