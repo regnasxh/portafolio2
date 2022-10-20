@@ -1,6 +1,6 @@
 import "./index.css"
-import icon1 from "../../assets/images/icon1.png"
-import icon2 from "../../assets/images/icon2.png"
+//import icon1 from "../../assets/images/icon1.png"
+//import icon2 from "../../assets/images/icon2.png"
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 
