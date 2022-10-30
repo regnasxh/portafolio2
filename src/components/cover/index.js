@@ -38,7 +38,7 @@ export default function Cover() {
 
                     <div className="cover_content">
                         <h1>Francesco Aliatis</h1>
-                        <h2>Data Analytics</h2>
+                        <h2>Data Analyst</h2>
                         <p>A data analyst focused on <span>processing</span>,<span> analyzing</span> and <span>visualizing</span> data for decision making.</p>
                         <HashLink smooth to={"/#contact"}>Contact</HashLink>
                     </div>
